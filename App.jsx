@@ -2,11 +2,15 @@ import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 
+import Hello from './src/components/Hello';
+
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Hello, world!</Text>
-      {/* eslint-disable */}
+      <Hello bang>World</Hello>
+      <Hello style={{ fontSize: 16 }}>Small World</Hello>
+      <Text>My name is Nobuo Kawabata.</Text>
+      {/* eslint-disable-next-line */}
       <StatusBar style="auto" />
     </View>
   );
