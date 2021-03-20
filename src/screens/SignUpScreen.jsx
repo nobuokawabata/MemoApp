@@ -57,7 +57,7 @@ export default function SignUpScreen(props) {
           <TouchableOpacity
             onPress={() => navigation.reset({
               index: 0,
-              routes: [{ name: 'Login' }],
+              routes: [{ name: 'LogIn' }],
             })}
           >
             <Text style={styles.footerLink}>Log In</Text>
