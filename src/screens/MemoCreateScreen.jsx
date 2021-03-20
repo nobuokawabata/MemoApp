@@ -29,7 +29,7 @@ export default function MemoCreateScreen(props) {
   }
 
   return (
-    <KeyboardSafeView style={styles.container} behavior="height">
+    <KeyboardSafeView style={styles.container}>
       <View style={styles.inputContainer}>
         <TextInput
           value={bodyText}
