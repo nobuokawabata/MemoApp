@@ -19,8 +19,8 @@
     ],
     "ios": {
       "supportsTablet": false,
-      "bundleIdentifire": "jp.batabattan.memoapp",
-      "buildNumber": "1.0.0"
+      "buildNumber": "1.0.0",
+      "bundleIdentifier": "jp.batabattan.memoapp"
     },
     "android": {
       "package": "jp.batabattan.memoapp",
