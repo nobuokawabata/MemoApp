@@ -67,7 +67,6 @@ export default function MemoListScreen(props) {
 
   return (
     <View style={styles.container}>
-      {/* <Loading isLoading={isLoading} /> */}
       <MemoList memos={memos} />
       <CircleButton
         name="plus"
