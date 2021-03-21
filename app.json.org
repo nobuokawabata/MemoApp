@@ -8,7 +8,7 @@
     "icon": "./assets/icon.png",
     "splash": {
       "image": "./assets/splash.png",
-      "resizeMode": "cover",
+      "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
     "updates": {
@@ -18,17 +18,12 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": false,
-      "bundleIdentifire": "jp.batabattan.memoapp",
-      "buildNumber": "1.0.0"
+      "supportsTablet": true
     },
     "android": {
-      "package": "jp.batabattan.memoapp",
-      "versionCode": 1,
-      "permissions": [],
       "adaptiveIcon": {
-        "foregroundImage": "./assets/icon_adaptive-foreground.png",
-        "backgroundImage": "./assets/icon_adaptive-background.png"
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
       }
     },
     "web": {
