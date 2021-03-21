@@ -44,6 +44,7 @@ export default function MemoListScreen(props) {
           Alert.alert('データの読み込みに失敗しました。');
         });
       });
+      setLoading(false);
     }
     return unsubscribe;
   }, []);
@@ -66,6 +67,7 @@ export default function MemoListScreen(props) {
 
   return (
     <View style={styles.container}>
+      {/* <Loading isLoading={isLoading} /> */}
       <MemoList memos={memos} />
       <CircleButton
         name="plus"
